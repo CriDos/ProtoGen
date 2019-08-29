@@ -8,9 +8,9 @@
         <PublishReadyToRun>true</PublishReadyToRun>
         <PublishSingleFile>true</PublishSingleFile>
         <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-        <PackageVersion>1.0.0</PackageVersion>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <FileVersion>1.0.0</FileVersion>
+        <PackageVersion>2.4.0</PackageVersion>
+        <AssemblyVersion>2.4.0</AssemblyVersion>
+        <FileVersion>2.4.0</FileVersion>
         <Title>protobuf-net command-line "global tool" for .NET code-generation from .proto schema files</Title>
     </PropertyGroup>
 
