@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <RepositoryType>git</RepositoryType>
+        <OutputType>Exe</OutputType>
+        <PublishTrimmed>true</PublishTrimmed>
+        <PublishReadyToRun>true</PublishReadyToRun>
+        <PublishSingleFile>true</PublishSingleFile>
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+        <PackageVersion>1.0.0</PackageVersion>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <Title>protobuf-net command-line "global tool" for .NET code-generation from .proto schema files</Title>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="protobuf-net" Version="2.4.0" />
+      <PackageReference Include="protobuf-net.Reflection" Version="2.3.17" />
+    </ItemGroup>
+
+</Project>
